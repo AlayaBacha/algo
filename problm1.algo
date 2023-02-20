@@ -1,0 +1,16 @@
+ALGORITHM problem1;
+VAR
+   
+   t1 : array of integer [];
+   t2 : array of integer [];
+   i,j , sum : integer;
+BEGIN
+ FOR i FROM 1 TO t.length STEP 1  DO
+ FOR j FROM 1 TO t.length STEP 1 DO
+    if (t1[i]=t2[j]) then 
+    sum:=sum+(t1[i]*2);
+    end_if
+ END_FOR
+ END_FOR
+ write(sum);
+END
